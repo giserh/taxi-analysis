@@ -1,7 +1,5 @@
 A team Python project for a 2nd level module.
 
-WARNING: This repo is quite large (600+MB) because it includes a large dataset.
-
 Authors: Nathan Blades, Angus Ireland, Masha Nedjakova
 
 We analysed a dataset of GPS data collected from taxis in San Francisco.
@@ -20,11 +18,11 @@ But if the data was in a different folder you could provide a command line argum
 
 To run the program do
 
-    python Main.py
+    python2 Main.py
 
 Optionally you can add command line arguments, for example
 
-    python Main.py -d cabspottingdata -f _cabs.txt
+    python2 Main.py -d cabspottingdata -f _cabs.txt
 
 But the two arguments I provided are set to those values by default.
 
